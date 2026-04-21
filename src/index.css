@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+@theme {
+  --color-pokemon-red: #C03928;
+  --color-pokemon-teal: #7FBCBD;
+  --color-pokemon-yellow: #F1C40F;
+  --color-pokemon-darkBlue: #2C3E50;
+  --color-pokemon-lightGray: #F4F6F7;
+}
+
+@layer base {
+  body {
+    @apply bg-slate-900 text-slate-100 font-sans antialiased min-h-screen;
+  }
+}
